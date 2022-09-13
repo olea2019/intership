@@ -1,13 +1,13 @@
 // Elements of a circle are numbered as: 1 — radius R, 2 — diameter D = 2·R, 3 — length L = 2·π·R of the circumference, 4 — area S = π·R**2.
 // The order number of one element and its value (as a real number) are given. Output values of other elements in the same order. 
 
-function getRandomvalue (range = 20) {
+function getRandomValue (range = 20) {
     return Math.trunc(Math.random() * range);
 }
 
-const number = getRandomvalue(4) + 1;
+const number: number = getRandomValue(4) + 1;
 console.log("number = ", number);
-const value = getRandomvalue();
+const value: number = getRandomValue();
 console.log("value = ", value);
 
 let radius: number;

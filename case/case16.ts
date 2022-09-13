@@ -1,10 +1,10 @@
 //Given an age in years (as an integer in the range 20 to 69), output its alphabetic equivalent as: ―twenty years, ―thirty-two years, ―forty-one year,etc. 
 
-function getRandomvalue(range = 100) {
+function getRandomValue(range = 100) {
     return Math.trunc(Math.random() * range);
 }
 
-const number = getRandomvalue(49) + 20;
+const number: number = getRandomValue(49) + 20;
 console.log("number = ", number);
 
 let years: string;
