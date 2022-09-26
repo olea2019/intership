@@ -21,6 +21,7 @@ console.log(notACopy); // will log => [10, 2, 3]
 console.log(array); // will log => [10, 2, 3]
 
 const copyArray = [...array];
+const copyArray2 = Array.from(array);
 
 
 // adaugarea unui element la sfarsitul arrayului
