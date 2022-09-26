@@ -14,6 +14,15 @@ const newStandard3 = Array.from([10, 20, 30], (x) => x + 5);
 const testArray = [10, 3, 9, 7, 4, 2, 8];
 
 
+const array = [1, 2, 3];
+const notACopy = array;
+notACopy[0] = 10;
+console.log(notACopy); // will log => [10, 2, 3]
+console.log(array); // will log => [10, 2, 3]
+
+const copyArray = [...array];
+
+
 // adaugarea unui element la sfarsitul arrayului
 // metoda push intoarce lungimea noua a tabelului
 tuple2.push('value', 'another value');
