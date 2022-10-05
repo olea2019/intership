@@ -9,6 +9,10 @@
         ],
         "type": "node",
         "runtimeExecutable": "ts-node",
+        "runtimeArgs": [
+          "-P",
+          "${workspaceFolder}/tsconfig.json"
+        ]
       }
     ]
   }
